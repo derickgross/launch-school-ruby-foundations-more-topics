@@ -45,6 +45,10 @@ class TodoList
     end
   end
 
+  def <<(todo_item)
+    self.add(todo_item)
+  end
+
   def item_at(index)
     @todos[index]
   end
